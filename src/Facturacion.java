@@ -12,7 +12,7 @@ public class Facturacion {
         nombre = sc.nextLine();
         System.out.println("Introduce el precio del producto 1");
         pre1 = sc.nextDouble();
-        System.out.println("Introduce el precio del producto 1");
+        System.out.println("Introduce el precio del producto 2");
         pre2 = sc.nextDouble();
         //realizamos los calculos
         //suma de los precios
