@@ -1,7 +1,8 @@
-//Importacion de Librerias
+package Ejercicios_Part_1;
 import java.util.*;
+import java.util.Scanner;
 
-public class Facturacion {
+public class Factura {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         String nombre;//nombre de la factura
