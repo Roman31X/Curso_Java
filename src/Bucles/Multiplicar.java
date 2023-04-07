@@ -2,6 +2,7 @@ package Bucles;
 import java.util.*;
 public class Multiplicar {
     public static void main(String[] args) {
+        /*multiplicar sin los signos multipliación*/
         Scanner sc = new Scanner(System.in);
         double num1=0,num2=0,con=0;
         //solicitar los números a multiplicar
