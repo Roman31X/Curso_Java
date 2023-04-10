@@ -23,14 +23,17 @@ public class Modulo {
                 opArreglo[0]);
 
         if(opcion == null){
-            JOptionPane.showInputDialog(null,"Debe seleccionar una operación");
-        }else {
 
-            //Agregamos un switch
-            int muere=1;
+            JOptionPane.showInputDialog(null,"Debe seleccionar una operación");
+
+        }else {
+            int muere=0;
+            opcionIndice = opciones.get(opcion.toString());
+            int num=opcionIndice;
             do{
-                opcionIndice = opciones.get(opcion.toString());
-                switch (opcionIndice){
+
+
+                switch (num){
                     case 1 :
                         JOptionPane.showMessageDialog(null, "Usuario ACTUALIZADO correctamente");
                         break;
@@ -47,7 +50,11 @@ public class Modulo {
                         JOptionPane.showMessageDialog(null, "SALIO correctamente");muere = 0;
                         break;
                 }
+                opcionIndice = opciones.get(opcion.toString());
+                num=opcionIndice;
+
             }while(muere >= 1);
+
         }
     }
 }
