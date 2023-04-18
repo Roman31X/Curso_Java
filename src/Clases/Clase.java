@@ -14,9 +14,26 @@ public class Clase {
     //crear clases son buenas prácticas
     //creamos las clases fuera del main
     //método para mostrar datos de la variable
+    //JAVADOC [describir la función de la clase]
+    //usa /**Descripción*/
+    /**DESCRIPCIÓN
+    * La clase Valor nos retornara una cadena de caracteres
+    * la cual está siendo manipulada por la clase de tipo
+    * @param a: Es el valor de la variable
+    * @param b: Es el valor de la variable
+    * String el cual soporta valores o suma de valor de
+    * carácter*/
     public static String Valor(int a, int b){
         return "La variables son: ["+a+" y "+b+"]";
     }
+
+    /**
+     * Descripcion: esta función realiza la suma de los valores
+     * asignados
+     * @param a  Valor asignado a
+     * @param b  Valor asignado b
+     * Finalmmente reguresa el valor de la suma
+     * */
     public static int Suma(int a, int b){
         return a + b;
     }
