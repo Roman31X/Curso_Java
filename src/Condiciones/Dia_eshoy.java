@@ -20,7 +20,9 @@ public class Dia_eshoy {
             case 6:
                 System.out.println("Hoy es Sabado");break;
             case 7:
-                System.out.println("Hoy es Domingo");  break;
+                System.out.println("Hoy es Domingo");break;
+            default:
+                System.out.println("El numero ingresado es mayor a 7 de dia");
         }
     }
 }
