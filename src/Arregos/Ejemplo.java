@@ -12,8 +12,8 @@ public class Ejemplo {
         int notas[][] = new int[5][2];
         /*Manejo de tres dimensiones
          * es mejor manejarlo en base
-         *  de datos esta describe 2 columnas -
-         * 2 filas - 2 painas*/
+         *  de datos esta describe 3 columnas -
+         * 3 filas - 3 painas*/
         int hora[][][] = new int[3][3][3];
         /**
          * Nota si hay arreglos de más de 3 dimensiones
