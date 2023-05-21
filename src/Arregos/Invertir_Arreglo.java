@@ -12,7 +12,7 @@ public class Invertir_Arreglo {
         for (int i = 0; i < tama; i++) {
             System.out.println("El mes es: ["+(i)+"] - ["+fecha[i]+"]");
         }
-        System.out.println("||==================||");
+        System.out.println("||=========INVERTIR=========||");
         //Ahora invertimos
         for (int j = tama-1; j >= 0  ; j--) {
             System.out.println("El ultimo mes es: ["+(j)+"] - ["+fecha[j]+"]");
