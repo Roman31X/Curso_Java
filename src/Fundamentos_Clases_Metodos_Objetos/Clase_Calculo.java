@@ -10,7 +10,6 @@ public class Clase_Calculo {
         System.out.println("La resta de a - b es: "+Resta(a,b));
         System.out.println("La multiplicación de a * b es: "+Multiplicacion(a,b));
         System.out.println("La division de a '/' b es: "+Division(a,b));
-
     }*/
     //crear clases son buenas prácticas
     //creamos las clases fuera del main
