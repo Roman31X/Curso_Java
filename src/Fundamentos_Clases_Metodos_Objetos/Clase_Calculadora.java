@@ -3,6 +3,10 @@ package Fundamentos_Clases_Metodos_Objetos;
 import java.util.Scanner;
 
 public class Clase_Calculadora {
+    /**
+     * MEMORIA [STACK - HEAP]
+     * MEMORIA STACK : almacena datos de variables locales
+     * MEMORIA HEAP : almacena datos de variables tipo objetos*/
     //DECLARAMOS VÁRIABLES GLOBALES
     public static int a=0,b=0;
     public static void main(String[] args) {
