@@ -1,6 +1,6 @@
 package Condiciones;
 
-public class Dia_eshoy {
+public class Estructura_Switch {
     public static void main(String[] args) {
         //seclaramos la variable
         int numero = 5;

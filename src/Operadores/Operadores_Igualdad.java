@@ -19,14 +19,20 @@ public class Operadores_Igualdad {
         boolean e = (nombre == apellido);
         System.out.println("e = " + e);
         //EVALUAREMOS SI EL CONTENIDO ES IGUAL AL DE LA VARIBALE APELLIDO
-        // nombres es igual a apellido = verdad
+        //nombres es igual a apellido = verdad
         //DESIGNAMOS NUEVA CADENA A "apellido" para que la evaluacion
         //salga verdadera
         apellido = "Diego";
         boolean f = nombre.equals(apellido);
         System.out.println("f = " + f);
+        System.out.println();
 
         //OPERADORES RELACIONALES
-
+        //EVALUACION DE LA VARIABLE "a"
+        if( a > b){
+            System.out.println("["+a+"] si es mayor a ["+b+"]");
+        }else{
+            System.out.println("["+a+"] Es un menor que ["+b+"]");
+        }
     }
 }

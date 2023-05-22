@@ -1,6 +1,6 @@
 package Condiciones;
 
-public class Ejer_Condicion {
+public class Estructura_ifelse {
     public static void main(String[] args) {
         /*
          * Un usuario se logea en la plataforma y desea saver
