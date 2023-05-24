@@ -23,6 +23,7 @@ public class Prueba_Caja {
         //Creamos Objetos de las clases para su ejecución
         Caja caja1 = new Caja();
         Caja caja2 = new Caja(ancho,alto,profundo);
-        System.out.println("El volumen de la caja es : ["+caja2.CalculoVolumen(ancho,alto,profundo)+"]");;
+        System.out.println("El volumen de la caja es : ["+caja2.CalculoVolumen(ancho,alto,profundo)+"]");
+        System.out.println();
     }
 }
