@@ -1,6 +1,4 @@
-package Clase_Math;
-
-import static java.lang.System.exit;
+package Fundamentos_Clase_Math;
 
 public class ArgumentosLineal {
     public static void main(String[] args) {
