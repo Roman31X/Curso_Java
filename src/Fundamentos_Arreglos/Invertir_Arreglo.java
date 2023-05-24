@@ -1,6 +1,4 @@
-package Arregos;
-
-import java.util.Arrays;
+package Fundamentos_Arreglos;
 
 public class Invertir_Arreglo {
     public static void main(String[] args) {

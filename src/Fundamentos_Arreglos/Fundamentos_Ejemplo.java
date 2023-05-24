@@ -1,8 +1,6 @@
-package Arregos;
+package Fundamentos_Arreglos;
 
-import java.sql.SQLOutput;
-
-public class Ejemplo {
+public class Fundamentos_Ejemplo {
     public static void main(String[] args) {
         //Crear arreglos de una sola dimension
         String Dias[] = new String[7];
