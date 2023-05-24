@@ -13,7 +13,7 @@ public class Operadore_Aritméticos {
     * OPERADORES DE ASIGNACIÓN : [ ++ , -- , = , += , -= , *= ,
     *  /= , %= , <<= , >>= , >>>= , &= , |= , ^= ]
     * PRIORIDAD Y ORDEN DE EVALUACIÓN : [ () , [] , . , -~!++-- ,
-    *  new(tipo)expresión , <<>> >>>, < <= > >= , == != , & , etc]
+    *  new(tipo)expresión , <<>> >>>, < <= > >= , == != , & , ? : "" etc]
     * */
     public static void main(String[] args) {
         //OPERADORES ARITMÉTICOS : [ + , - , * , / , % ]
