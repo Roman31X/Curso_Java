@@ -1,6 +1,6 @@
 package Ejercicio_Part2;
 import java.util.*;
-public class Nombre {
+public class Ejercico_chartAtNombre {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         //Declaramos las tres variables de nombres

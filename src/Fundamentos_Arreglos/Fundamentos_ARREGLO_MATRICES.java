@@ -1,6 +1,6 @@
 package Fundamentos_Arreglos;
 
-public class Fundamentos_Ejemplo {
+public class Fundamentos_ARREGLO_MATRICES {
     public static void main(String[] args) {
         //Crear arreglos de una sola dimension
         String Dias[] = new String[7];
