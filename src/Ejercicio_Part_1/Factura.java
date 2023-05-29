@@ -1,5 +1,4 @@
-package Ejercicios_Part_1;
-import java.util.*;
+package Ejercicio_Part_1;
 import java.util.Scanner;
 
 public class Factura {
