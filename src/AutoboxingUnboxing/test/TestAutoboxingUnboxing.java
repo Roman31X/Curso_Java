@@ -11,8 +11,7 @@ public class TestAutoboxingUnboxing {
         * boolean - Boolean
         * byte - Byte
         * char - Character
-        * short - Short
-        *
+        * short - Short        *
         * */
         /**AutoBoxing = encapsular el valor en el Objeto "numero"*/
         Integer numero = 10;
