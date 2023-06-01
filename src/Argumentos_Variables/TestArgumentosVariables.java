@@ -5,9 +5,9 @@ public class TestArgumentosVariables {
         imprimirNumeros(2,4,6,8,10,12,14);
         System.out.println("||=======||");
         imprimirNumeros(1,3,5,7,9,11,13);
-        System.out.println("||========||");
+        System.out.println("||======||");
         variosParametros("Diego",15,18,20,19);
-        System.out.println("||========||");
+        System.out.println("||=======||");
         variosNombres("Diego","Carlos","Daniel","Rene","Gustavo");
     }
     //con este método no determina cuantos argumentos seran enviados
