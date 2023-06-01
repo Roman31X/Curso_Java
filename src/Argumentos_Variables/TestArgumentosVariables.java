@@ -3,7 +3,7 @@ package Argumentos_Variables;
 public class TestArgumentosVariables {
     public static void main(String[] args) {
         imprimirNumeros(2,4,6,8,10,12,14);
-        System.out.println("||========||");
+        System.out.println("||=======||");
         imprimirNumeros(1,3,5,7,9,11,13);
         System.out.println("||========||");
         variosParametros("Diego",15,18,20,19);
