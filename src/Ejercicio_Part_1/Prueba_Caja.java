@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class Prueba_Caja {
     //MÉTODO PRINCIPAL DE EJECUCIÓN MAIN
     public static void main(String[] args) {
+        /**
+         * ALMACENAMIENTO DE VARIABLE
+         * Variables creadas en la clase se almacena en la memoria [MEMORIA STACK]
+         * Las variables creadas de tipo OBJETO se almacenan en la memoria [MEMORIA HEAP]*/
         //IMPORTAMOS CLASE SCANNER PARA PODER RECIVIR
         //DATOS POR CONSOLA
         Scanner sc = new Scanner(System.in);
