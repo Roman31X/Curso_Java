@@ -1,4 +1,4 @@
-package Conversion_Objetos.domain;
+package Conversion_Objetos_equals_haschCode.domain;
 
 public enum TipoEscritor {
     CLASICO("Escritura a Mano"),

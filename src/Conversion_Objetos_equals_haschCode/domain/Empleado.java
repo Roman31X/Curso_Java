@@ -1,4 +1,6 @@
-package Conversion_Objetos.domain;
+package Conversion_Objetos_equals_haschCode.domain;
+
+import java.util.Objects;
 
 public class Empleado {
     protected String nombre;
@@ -34,5 +36,17 @@ public class Empleado {
         return "|| EMPLEADO : \n" +
                 "|| Nombre : [" + nombre +"]\n" +
                 "|| Sueldo : [" + sueldo + "]\n";
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Empleado empleado)) return false;
+        return Double.compare(empleado.getSueldo(), getSueldo()) == 0 && Objects.equals(getNombre(), empleado.getNombre());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getNombre(), getSueldo());
     }
 }

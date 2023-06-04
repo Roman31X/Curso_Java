@@ -1,4 +1,4 @@
-package Conversion_Objetos.domain;
+package Conversion_Objetos_equals_haschCode.domain;
 
 public class Gerente extends Empleado{
     private String departamento;

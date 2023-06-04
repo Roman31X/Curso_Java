@@ -1,8 +1,8 @@
-package Conversion_Objetos.testConversion;
+package Conversion_Objetos_equals_haschCode.testConversion;
 
-import Conversion_Objetos.domain.Empleado;
-import Conversion_Objetos.domain.Escritor;
-import Conversion_Objetos.domain.TipoEscritor;
+import Conversion_Objetos_equals_haschCode.domain.Empleado;
+import Conversion_Objetos_equals_haschCode.domain.Escritor;
+import Conversion_Objetos_equals_haschCode.domain.TipoEscritor;
 
 public class testConversionObjetos {
     public static void main(String[] args) {
