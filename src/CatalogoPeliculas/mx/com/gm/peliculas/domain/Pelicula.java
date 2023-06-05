@@ -19,7 +19,6 @@ public class Pelicula {
 
     @Override
     public String toString() {
-        return "|| PELICULA :\n" +
-                "|| NOMBRE : [" + nombre +"]\n";
+        return this.nombre;
     }
 }

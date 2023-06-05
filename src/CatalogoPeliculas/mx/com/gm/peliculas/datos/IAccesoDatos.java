@@ -5,7 +5,7 @@ import CatalogoPeliculas.mx.com.gm.peliculas.excepciones.*;
 
 import java.util.List;
 
-public interface AccesoDatos {
+public interface IAccesoDatos {
     boolean existe(String nombreRecurso) throws AccesoDatosEx;
 
     List<Pelicula> lista(String nombreRecurso) throws LecturaDatosEx;
@@ -16,6 +16,6 @@ public interface AccesoDatos {
 
     void crear(String nombreRecurso) throws AccesoDatosEx;
 
-    void borrar(String nombre) throws AccesoDatosEx;
+    void borrar(String nombreRecurso) throws AccesoDatosEx;
 
 }
