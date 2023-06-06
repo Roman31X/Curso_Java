@@ -11,12 +11,12 @@ public class CatalogoPeliculasPresentacion {
         ICatalogoPeliculas catalogo = new CatalogoPeliculasImpl();
 
         while (opcion != 0){
-            System.out.println("||======INTERFAZ PELICULAS=======||\n"+
-                               "|| [1] - Iniciar Catalogo\n"+
-                               "|| [2] - Agregar Pelicula\n"+
-                               "|| [3] - Listar Pelicula\n"+
-                               "|| [4] - Buscar Pelicula\n"+
-                               "|| [0] - Salir");
+            System.out.println("||===INTERFAZ PELICULAS===||\n"+
+                               "|| [1] - Iniciar Catalogo ||\n"+
+                               "|| [2] - Agregar Pelicula ||\n"+
+                               "|| [3] - Listar Pelicula  ||\n"+
+                               "|| [4] - Buscar Pelicula  ||\n"+
+                               "|| [0] - Salir            ||");
             opcion = Integer.parseInt(scanner.nextLine());
             switch (opcion){
                 case 1:
