@@ -16,6 +16,7 @@ public class BuscarDentroArreglo {
         do{
             respuesta = Menu();
             switch (respuesta){
+                //RELLENAR ARREGLO
                 case 1:
                         respuestaDos = SegundoMenu();
                         switch (respuestaDos){
@@ -28,6 +29,7 @@ public class BuscarDentroArreglo {
                                 break;
                         }
                         break;
+                //BUSCAR DATO EN ARREGLO
                 case 2:
                     respuestaTres = TercerMenú();
                     switch (respuestaTres){
@@ -48,6 +50,7 @@ public class BuscarDentroArreglo {
                             break;
                     }
                     break;
+                //MOSTRAR EL CONTENIDO DEL ARREGLO
                 case 3:
                     respuestaCuatro = CuartoMenu();
                     switch (respuestaCuatro){
@@ -73,6 +76,7 @@ public class BuscarDentroArreglo {
                             break;
                     }
                     break;
+                //SALIR
                 case 0:
                     break;
             }
