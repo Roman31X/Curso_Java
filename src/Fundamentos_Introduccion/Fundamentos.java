@@ -5,10 +5,12 @@ public class Fundamentos {
     public static void main(String[] args) {
         //Definimos variables de tipo entera
         int miVariableEntera = 10;
+
         //mostramos el contenido de la variable por consola
         //atajo para mostrar mensaje "sout + TAB"
         //atajo para mostrar mensaje el nombre de la variable y su valor "soutv + TAB"
         System.out.println("miVariableEntera = " + miVariableEntera);
+
         //MODIFICAMOS LA VARIABLE ASIGNANDOLE NUEVO VALOR
         //ATAJO PARA VER LA VARIBALES DE LA CLASE "ctrl + ESPACIO"
         miVariableEntera = 20;
@@ -19,12 +21,12 @@ public class Fundamentos {
         String miVariableCadena = "Hola Bienvenido";
         System.out.println("miVariableCadena = " + miVariableCadena);
         //MODIFICAMOS LA VARIABLE ASIGNANDOLE UNA NUEVA CADENA DE VALOR
-        miVariableCadena = "Adios hasta la proximma";
+        miVariableCadena = "Adios hasta la próxima";
         System.out.println("miVariableCadena = " + miVariableCadena);
         System.out.println();
 
-        //DEFINIMOS UNA NUEVA VARIABLE DE TIPO "var = inferencia de tipo Java"
-        //ACEPTA valor String - int - double -float
+        //DEFINIMOS UNA NUEVA VARIABLE DE TIPO "var = inferencia de tipos en Java"
+        //ACEPTA valor String - int - double - float
         var miVariableEntera1 = 10;
         var miVariableCaracter1 = "Hola Mundo";
         var miVariableDouble1 = 15.5;
@@ -41,6 +43,9 @@ public class Fundamentos {
         * BUENAS PRÁCTICAS IMPLEMENTAR CAMELCASE [int miVariableEntera = 10;
         * Caracteres aceptadas para declarar un variable son [ _ (guion bajo)
         * - $ (signo dolar) ]
+        * NO es recomendable usar acentos = [ var áVariable = 10 ] X
+        * No está permitido caracteres especiales = [ var #miVariable = 2 ] X
+        *
         * EJEMPLO
         * int _cantidadAdultoMayor = 50;
         * double $pesosAdultoMayor = 60.5;
@@ -49,20 +54,28 @@ public class Fundamentos {
         //CONCATENAR DATOS DE VARIABLES
         var nombre = "Diego";
         var apellido = "Roman Guerra";
+
+        var i = 3;
+        var j = 4;
         //mostramos los datos de la variable usando el símbolo
         //de concatenación que es [+]
         //EJEMPLO
+
         System.out.println("USUARIO : "+nombre+" "+apellido);
+        System.out.println(nombre + i + j); // realiza concatenación
+        System.out.println(i + j + nombre); //izq a der realiza suma
         System.out.println();
 
         //CARACTERES ESPECIALES EN JAVA
         /*ESTOS SON:
-        *  [ "\n" : dara un salto de linea en el mensaje]
-        *  [ "\t" : dara una tabulación de espacio en la misma linea]
-        *  [ "\b" : dara una acción de retroceder espacio como (suprimir)]
-        *  [ "\'" : dara acceso a poder usar las comillas simple en el mensaje]
-        *  [ "\"" : dara acceso a poder usar las comillas doble en el mensaje]
+        *  ["\n": dara un salto de línea en el mensaje]
+        *  ["\t": dara una tabulación de espacio en la misma línea]
+        *  ["\b": dara una acción de retroceder espacio como (suprimir)]
+        *  ["\'" : dara acceso a poder usar las comillas simple en el mensaje]
+        *  ["\"" : dara acceso a poder usar las comillas doble en el mensaje]
+        *
         * EJEMPLO
+        *
         * */
         System.out.println("USUARIO :\b\n\'"+nombre+"\'\t\""+apellido+"\"");
         System.out.println();
