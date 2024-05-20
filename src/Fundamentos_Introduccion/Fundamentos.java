@@ -77,6 +77,14 @@ public class Fundamentos {
         * EJEMPLO
         *
         * */
+
+        System.out.println("Ejemplos de caracteres especiales");
+        System.out.println("Salto de linea : " + "\n" + nombre);
+        System.out.println("Tabulación en linea : "+ "\t" + nombre);
+        System.out.println("Retroceso como suprimir --- :" + "\b\b" + nombre);
+        System.out.println("Comillas simples : "+ "\'" + nombre + "\'");
+        System.out.println("Comillas dobles : \""+ nombre+ "\"");
+
         System.out.println("USUARIO :\b\n\'"+nombre+"\'\t\""+apellido+"\"");
         System.out.println();
 
