@@ -19,8 +19,9 @@ public class Implementar_Break_Continue {
         for (int i = 1; i <= 12; i++) {
             System.out.println("||\t ["+a+"] * ["+i+"] = ["+(i*a)+"]");
         }
+
         //IMPLEMENTAMOS LOS "break"  PARA ROMPER EL BUCLE
-        //MOSTRAR LOS NUMERO PARES DE LA MULTIPLICACION
+        //MOSTRAR LOS NUMERO PARES DE LA MULTIPLICACIÓN
         String par="";
         for (int i = 1; i <= 12; i++) {
             int b = i * a;
@@ -40,6 +41,7 @@ public class Implementar_Break_Continue {
                     System.out.println("El ["+b+"] es un número impar");
                     break;
             }
+
             //Solo imprimir los números pares de
             //la multiplicación implementamos "continue"
             //"inicio:" //esta declaración es conocido como etiqueta

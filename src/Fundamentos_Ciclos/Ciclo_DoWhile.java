@@ -29,7 +29,6 @@ public class Ciclo_DoWhile {
             JOptionPane.showInputDialog(null,"Debe seleccionar una operación");
 
         }else {
-            int muere=0;
             opcionIndice = opciones.get(opcion.toString());
             int num = opcionIndice;
             do{
@@ -46,11 +45,8 @@ public class Ciclo_DoWhile {
                     case 4 :
                         JOptionPane.showMessageDialog(null, "Usuario LISTADO correctamente");
                         break;
-                    case 5 :
-                        JOptionPane.showMessageDialog(null, "SALIO correctamente");muere = 0;
-                        break;
                 }
-                opcion = JOptionPane.showInputDialog(null,"Seleccione una Opcion",
+                opcion = JOptionPane.showInputDialog(null,"Seleccione una Opción",
                         "Mantener de Producto",
                         JOptionPane.INFORMATION_MESSAGE,
                         null,opArreglo,
@@ -58,7 +54,7 @@ public class Ciclo_DoWhile {
                 opcionIndice = opciones.get(opcion.toString());
                 num=opcionIndice;
 
-            }while(muere >= 1);
+            }while(num != 5);
 
         }
     }
