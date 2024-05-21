@@ -67,19 +67,6 @@ En resumen, cuando instalamos los JDK, también se instala el JRE como parte de 
 Lo que significa que tendrás todas las herramientas necesarias para desarrollar como para ejecutar
 programas Java.
 
-<style>
-      .primero {border: thin solid black; padding: 20px;}
-      .segundo {border: thin solid red; padding: 20px;}
-      .tercero {border: thin solid green; padding: 20px;}
-</style>
-
-<div class="primero" align="center">
-JDK (comando javac, debugging, herramientas desarrollo)
-  <div class="segundo">
-    JRE (comando java para ejecutar el bytecode (.class)<br>
-    verifica de bytecode, Java API(biblioteca))
-    <div class="tercero">
-    JVM (Interprete JIT(Just in Time), Recolector Basura)
-    </div>
-  </div>
-</div>
+1. JDK (comando javac, debugging, herramientas desarrollo)
+2. JRE (comando java para ejecutar el bytecode (.class) verifica de bytecode, Java API(biblioteca))
+3. JVM (Interprete JIT(Just in Time), Recolector Basura)
