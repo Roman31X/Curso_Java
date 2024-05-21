@@ -44,3 +44,42 @@ aplicaciones como son:
     + Java no solo es un lenguaje de programación es una plataforma versátil y potente que ha 
   resistido la prueba del tiempo. Java sigue evolucionando con nuevas versiones y nuevas 
   características por la que Java sigue siendo una excelente inversion.
+
+## ¿QUE ES EL JDK DE JAVA?
+
+El JDK es (Java Development Kit) de Java nos sirve para ejecutar los programas de Java el 
+cual contiene herramientas, como compilador y una máquina virtual de Java. El cual el 
+compilador es un programa que traduce el código Java a un lenguaje de bajo nivel o código 
+máquina que puede ser ejecutado directamente por el sistema operativo.
+
+### ¿COMO FUNCIONA?
+
+El compilador de Java __(javac)__ convierte el código fuente __(.java)__ en bytecode __(.class).
+El bytecode es un formato intermedio que es independiente de plataforma y ejecutado en cualquier
+sistema operativo que tenga una Máquina Virtual de Java (JVM).
+
+## RELACIÓN ENTRE JDK Y JRE
+
+- [x] El JDK incluye el JRE más las herramientas de desarrollo necesarias (como el compilador). 
+- [x] El JRE incluye solamente lo necesario para ejecutar aplicaciones Java más no para desarrollar.
+
+En resumen, cuando instalamos los JDK, también se instala el JRE como parte de paquete de instalación.
+Lo que significa que tendrás todas las herramientas necesarias para desarrollar como para ejecutar
+programas Java.
+
+<style>
+      .primero {border: thin solid black; padding: 20px;}
+      .segundo {border: thin solid red; padding: 20px;}
+      .tercero {border: thin solid green; padding: 20px;}
+</style>
+
+<div class="primero" align="center">
+JDK (comando javac, debugging, herramientas desarrollo)
+  <div class="segundo">
+    JRE (comando java para ejecutar el bytecode (.class)<br>
+    verifica de bytecode, Java API(biblioteca))
+    <div class="tercero">
+    JVM (Interprete JIT(Just in Time), Recolector Basura)
+    </div>
+  </div>
+</div>
