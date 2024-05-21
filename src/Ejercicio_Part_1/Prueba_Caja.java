@@ -9,13 +9,16 @@ public class Prueba_Caja {
          * ALMACENAMIENTO DE VARIABLE
          * Variables creadas en la clase se almacena en la memoria [MEMORIA STACK]
          * Las variables creadas de tipo OBJETO se almacenan en la memoria [MEMORIA HEAP]*/
-        //IMPORTAMOS CLASE SCANNER PARA PODER RECIVIR
+
+        //IMPORTAMOS CLASE SCANNER PARA PODER RECIBIR
         //DATOS POR CONSOLA
         Scanner sc = new Scanner(System.in);
-        //Creamos varibles para recepción de datos
+
+        //Creamos variables para recepción de datos
         int ancho;
         int alto;
         int profundo;
+
         //Solicitamos por consola los datos para
         //[ancho - alto - profundo]
         System.out.print("Ingrese Ancho de la caja => ");
@@ -24,6 +27,7 @@ public class Prueba_Caja {
         alto = sc.nextInt();
         System.out.print("Ingrese Profundidad de la caja => ");
         profundo = sc.nextInt();
+
         //Creamos Objetos de las clases para su ejecución
         Caja caja1 = new Caja();
         Caja caja2 = new Caja(ancho,alto,profundo);
