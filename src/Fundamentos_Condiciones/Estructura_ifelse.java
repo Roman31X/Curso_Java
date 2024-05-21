@@ -3,11 +3,13 @@ package Fundamentos_Condiciones;
 public class Estructura_ifelse {
     public static void main(String[] args) {
         /*
-         * Un usuario se logeara en la plataforma y desea saver
+         * Un usuario se debe verificar en la plataforma y desea saver
          * saber si lo logro o no
          * */
+
         //declarar una variable
         boolean login = true;
+
         //usaremos condicional
         if(login){
             System.out.println("Se logeo correctamente");
