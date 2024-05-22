@@ -10,18 +10,21 @@ public class TestArgumentosVariables {
         System.out.println("||=======||");
         variosNombres("Diego","Carlos","Daniel","Rene","Gustavo");
     }
-    //con este método no determina cuantos argumentos seran enviados
+
+    //con este método no determina cuantos argumentos serán enviados
     private static void imprimirNumeros(int... numeros){
         for (int i = 0; i < numeros.length; i++) {
             System.out.println("Elemento : [ "+numeros[i]+"]");
         }
     }
-    //Dos parametros más argumento variable
+
+    //Dos parámetros más argumento variable
     //Únicamente la argumento variable debe estar al final
     private static void variosParametros(String nombre,int... numeros){
         System.out.println("|| NOMBRE : [ "+nombre+"]");
         imprimirNumeros(numeros);
     }
+
     private static void variosNombres(String... nombre){
         for (int i = 0; i < nombre.length; i++) {
             System.out.println("Alumno : ["+nombre[i]+"]");

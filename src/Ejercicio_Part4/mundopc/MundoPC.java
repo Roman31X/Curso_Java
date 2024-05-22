@@ -14,6 +14,7 @@ public class MundoPC {
         Teclado tecladoGamer = new Teclado("Bluetooth","Gamer");
         Raton ratonGamer = new Raton("Bluetooth","Gamer");
         Computadora computadoraGamer = new Computadora("Computadora Gamer",monitorGamer,tecladoGamer,ratonGamer);
+
         /**
          * <h1>PRIMERA ORDEN</h1>
          * Se crea un objeto del tipo orden para agregar<br>
@@ -25,6 +26,7 @@ public class MundoPC {
         orden1.agregarComputadora(computadoraGamer);
         //LLAMAMOS AL MÉTODO MOSTRAR ORDEN
         orden1.mostrarOrden();
+
         /**
          * <h1>SEGUNDA ORDEN</h1>
          * Se crea un objeto del tipo orden para agregar<br>
