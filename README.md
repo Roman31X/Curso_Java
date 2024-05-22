@@ -70,3 +70,7 @@ programas Java.
 1. JDK (comando javac, debugging, herramientas desarrollo)
 2. JRE (comando java para ejecutar el bytecode (.class) verifica de bytecode, Java API(biblioteca))
 3. JVM (Interprete JIT(Just in Time), Recolector Basura)
+
+## TEMAS EN JAVA
+
+- [x] <a href=""> __Variables en java__ </a>
