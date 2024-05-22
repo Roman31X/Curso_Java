@@ -2,8 +2,6 @@ package Fundamentos_Interfaces.ClaseInterfaces;
 
 public class ImplementacionMysql implements IAaccesoDatos{
 
-
-
     @Override
     public void insertar() {
         System.out.println("Se inserto el dato en la Base Mysql");

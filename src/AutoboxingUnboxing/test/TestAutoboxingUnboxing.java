@@ -13,10 +13,12 @@ public class TestAutoboxingUnboxing {
         * char - Character
         * short - Short        *
         * */
+
         /**AutoBoxing = encapsular el valor en el Objeto "número"*/
         Integer numero = 10;
         System.out.println("Entero : [ "+numero+" ]");
         System.out.println("Entero double : [ "+numero.doubleValue()+" ]");
+
         /**UnBoxing = extracción valor primitivo en la variable "número"*/
         int entero = numero;
         System.out.println("Numero : [ "+entero + " ]");

@@ -8,13 +8,13 @@ public class tesInstanceOf {
     public static void main(String[] args) {
         //PADRE
         Empleado empleado = new Empleado("Juan",5000);
+
         //determinarContenido(empleado);
         //HIJA
         empleado= new Gerente("Diego",8000,"Sistemas");
         determinarContenido(empleado);
-
-
     }
+
     //POLIMORFISMO
     public static void determinarContenido(Empleado empleado){
         //la variable empleado apunta aun tipo gerente

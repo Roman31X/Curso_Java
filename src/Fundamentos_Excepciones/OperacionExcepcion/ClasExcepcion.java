@@ -1,4 +1,4 @@
-package Fundamentos_Execpciones.OperacionExcepcion;
+package Fundamentos_Excepciones.OperacionExcepcion;
 
 public class ClasExcepcion extends Exception{
 

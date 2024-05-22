@@ -5,10 +5,10 @@ public class Clase4_privado {
     private String variableprivada = "Diego";
 
     private Clase4_privado() {
-        System.out.println("Este es un contrcutor privado");
+        System.out.println("Este es un constructor privado");
     }
-    //constructor publico
 
+    //constructor publicó
     public Clase4_privado(String variableprivada) {
         this.variableprivada = variableprivada;
         System.out.println("Constructor privado");
