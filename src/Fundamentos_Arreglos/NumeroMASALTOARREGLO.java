@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class NumeroMASALTOARREGLO {
     public static void main(String[] args) {
         //IMPRIMIR SOLO NÚMEROS ALTOS DE UN ARREGLO DE 7
-        //        //ELEMENTOS POR EJEMPLO RANGO DE 11 A 99 {14,33,15,36,78,21,43]
-        //        //QUE NO SE REPITA
+        //ELEMENTOS POR EJEMPLO RANGO DE 11 A 99 {14,33,15,36,78,21,43]
+        //QUE NO SE REPITA
         Scanner sc = new Scanner(System.in);
         //Tamaño arreglo
         int[] numeros = new int[7];

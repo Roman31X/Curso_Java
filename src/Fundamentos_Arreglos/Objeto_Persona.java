@@ -5,15 +5,18 @@ public class Objeto_Persona {
     String nombre = "";
     String apellido = "";
     int edad;
-    //CONSTRUCTOR VACIO
+
+    //CONSTRUCTOR VACÍO
     public Objeto_Persona() {
     }
-    //CONSTRUCTOR CON PARAMETROS
+
+    //CONSTRUCTOR CON PARÁMETROS
     public Objeto_Persona(String nombre, String apellido, int edad) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.edad = edad;
     }
+
     //MÉTODO SETTER Y GETTER
     public String getNombre() {        return nombre;    }
     public void setNombre(String nombre) {        this.nombre = nombre;    }
