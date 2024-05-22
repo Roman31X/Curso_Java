@@ -73,4 +73,7 @@ programas Java.
 
 ## TEMAS EN JAVA
 
-- [x] <a href=""> __Variables en java__ </a>
+- [x] <a href="https://github.com/Roman31X/Curso_Java/tree/main/src/Fundamentos_Introduccion"> Variables en java </a>
+- [x] <a href="https://github.com/Roman31X/Curso_Java/tree/main/src/Fundamentos_Operadores"> Operadores en Java </a>
+
+

@@ -60,4 +60,18 @@ double salario; //Declaracion de variable
 salario = 4000.50; //Asignación posterior
 String mensaje = "Hola mundo"; //Variable de tipo Object
 ```
+## BUENAS PRACTICAS EN NOMBRES DE VARIABLES
+
+- [x] Usar Camel Case para nombres de variables (Notación de Camelcase)
+  - La notación de camello comienza con minúscula y cada nueva palabra
+  su primera letra inicia con mayúscula. 
+  - Ejemplo: nombreCompleto, edadPersona.
+- [x] Ser descriptivo y claro
+  - Los nombres de las variables deben describir claramente su propósito.
+  - Ejemplo: precioProducto, numeroTelefonico (no usar acentos).
+- [x] Prefijos y sufijos (Solo si es necesario)
+  - Prefijos 'is' y 'has' en tipos booleanos.
+  - Ejemplo: isActivo, hasSaldo.
+- [x] Evitar nombres de variables de una sola letra
+- [x] No abusar de abreviaturas
 
