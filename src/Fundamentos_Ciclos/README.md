@@ -9,7 +9,7 @@ verdadera.
 ### Ciclo ***While***
 - Este bucle se ejecutará cuantas veces sea posible hasta que la 
 condición deje de ser verdadero.
-- Sintaxis
+- [x] Sintaxis
 ```java
 while(condición){
     //Bloque de código a ejecutar
@@ -23,7 +23,7 @@ del bloque mientras la condición a evaluar sea verdadera.
 - A diferencia del ciclo while, el ciclo do - while evalúa la condición
 después de ejecutar el bloque de código, garantizando que el bloque se ejecute
 al menos una vez.
-- Sintaxis
+- [x] Sintaxis
 ```java
 do{
     //Bloque de código a ejecutar
@@ -42,9 +42,38 @@ es falsa el ciclo termina.
 - [x] Actualización: Se ejecuta al final de cada iteración del ciclo y se utiliza 
 para actualizar las variables de control, como el incremento o descuento de las 
 variables de tipo contador.
-- Sintaxis
+- [x] Sintaxis
 ```java
 for(inicialización; condición; actualización){
     //Bloque de código a ejecutar
+}
+```
+## Uso de ***break*** en Java
+- La palabra clave break se utiliza para salir de un ciclo antes de que haya 
+terminado normalmente. Cuando se encuentra break dentro de un ciclo, el control 
+del programa se transfiere inmediatamente a la línea de código que sigue al ciclo.
+- [x] Sintaxis
+```java
+for(inicialización; condición; actualización){
+    //Bloque de código a ejecutar
+    if(condición){
+        break;
+    }
+    //más código
+}
+```
+
+## Uso de ***continue*** en Java
+- La palabra continue se utiliza para saltar la iteración actual del ciclo y continuar
+con la siguiente. Cuando se encuentra continue dentro de un ciclo, el control del programa
+se transfiere inmediatamente al comienzo de la próxima iteración del ciclo.
+- [x] Sintaxis
+```java
+for(inicialización; condición; actualización){
+    //Bloque de código a ejecutar
+    if(condición){
+        continue;
+    }
+    //más código
 }
 ```
