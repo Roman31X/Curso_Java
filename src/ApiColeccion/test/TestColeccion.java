@@ -6,9 +6,11 @@ public class TestColeccion {
     public static void main(String[] args) {
         //CREAMOS UN ARRAY DE TIPO OBJETO DE LA CLASE LIST
         List miLista = new ArrayList();
+
         /**ES ORDENADO AL MOSTRAR SUS ELEMENTOS A COMO FUERON
          * REGISTRADOS - PERO SI HAY DATOS IGUALES AUN ASI
          * LO MOSTRARA EN LA CONSOLA*/
+
         //AGREGAMOS DATOS AL ARRAYLIST
         miLista.add("Lunes");
         miLista.add("Martes");
@@ -18,6 +20,7 @@ public class TestColeccion {
         miLista.add("Sábado");
         miLista.add("Domingo");
         miLista.add("Domingo");
+
         //imprimir(miLista);
         //AL QUERE MOSTRAR SABEMOS QUE EL ARRAYLIST ES DE TIPO OBJETO
         //POR ENDE CAPTURAREMOS LOS ELEMENTOS DEL ARRAYLIST
@@ -30,7 +33,9 @@ public class TestColeccion {
         miLista.forEach(elemento ->{
             System.out.println("ELEMENTO : "+elemento);
         });*/
+
         System.out.println();
+
         /**NO RESPETA EL ORDEN EN QUE FUERON REGISTRADOS
          * - PERO NO DUPLICA DATOS IGUALES REGISTRADOS*/
         //Tipo SET
@@ -51,20 +56,23 @@ public class TestColeccion {
         miMapa.put("002","Carlos");
         miMapa.put("003","Daniel");
         miMapa.put("004","Renne");
+
         //recuperamos el elemento
         String elemento = (String)  miMapa.get("003");
         //System.out.println("Tipo de clase : ["+miMapa.getClass().getSimpleName()+"]");
         //System.out.println("Elemento : "+elemento);
         //PARA IMPRIMIR TODOS LOS ELEMENTOS GUARDADOS LLAVE
         imprimir(miMapa.keySet());
+
         //PARA IMPRIMIR TODOS LOS VALORES
         imprimir(miMapa.values());
 
 
     }
-    //Interface mas gnerico para recepcion de objeto de tipo List y Set
+
+    //Interface más generic para recepción de objeto de tipo List y Set
     public static void imprimir(Collection coleccion){
-        //lambda COLECCION
+        //lambda COLECCIÓN
         System.out.println("Tipo : ["+coleccion.getClass().getSimpleName()+"]");
         coleccion.forEach(elemento ->{
             System.out.println("Elemento : ["+elemento+"]");

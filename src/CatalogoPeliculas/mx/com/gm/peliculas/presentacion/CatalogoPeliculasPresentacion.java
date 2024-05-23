@@ -11,11 +11,11 @@ public class CatalogoPeliculasPresentacion {
         ICatalogoPeliculas catalogo = new CatalogoPeliculasImpl();
 
         while (opcion != 0){
-            System.out.println("||===INTERFAZ PELICULAS===||\n"+
+            System.out.println("||===INTERFAZ PELÍCULA===||\n"+
                                "|| [1] - Iniciar Catalogo ||\n"+
-                               "|| [2] - Agregar Pelicula ||\n"+
-                               "|| [3] - Listar Pelicula  ||\n"+
-                               "|| [4] - Buscar Pelicula  ||\n"+
+                               "|| [2] - Agregar Película ||\n"+
+                               "|| [3] - Listar Película  ||\n"+
+                               "|| [4] - Buscar Película  ||\n"+
                                "|| [0] - Salir            ||");
             opcion = Integer.parseInt(scanner.nextLine());
             switch (opcion){
@@ -23,7 +23,7 @@ public class CatalogoPeliculasPresentacion {
                     catalogo.iniciarCatalogoPeliculas();
                     break;
                 case 2:
-                    System.out.println("Ingrese el nombre de la pelicula");
+                    System.out.println("Ingrese el nombre de la película");
                     var nombrePelicula = scanner.nextLine();
                     catalogo.agregarPelicula(nombrePelicula);
                     break;
@@ -31,7 +31,7 @@ public class CatalogoPeliculasPresentacion {
                     catalogo.listarPeliculas();
                     break;
                 case 4:
-                    System.out.println("Introduce nombre pelicula a buscar: ");
+                    System.out.println("Introduce nombre película a buscar: ");
                     var buscar = scanner.nextLine();
                     catalogo.buscarPelicula(buscar);
                 case 0:
