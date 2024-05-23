@@ -78,6 +78,8 @@ programas Java.
 - [x] <a href="https://github.com/Roman31X/Curso_Java/tree/main/src/Fundamentos_Condiciones"> Decisiones en Java </a>
 - [x] <a href="https://github.com/Roman31X/Curso_Java/tree/main/src/Fundamentos_Ciclos"> Ciclos en Java </a>
 - [x] <a href="https://github.com/Roman31X/Curso_Java/tree/main/src/Fundamentos_Arreglos"> Arreglos en Java </a>
+- [x] <a href="https://github.com/Roman31X/Curso_Java/tree/main/src/Fundamentos_Funciones"> Funciones en Java </a>
+
 
 
 
