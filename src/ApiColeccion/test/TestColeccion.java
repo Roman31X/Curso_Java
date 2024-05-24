@@ -22,8 +22,8 @@ public class TestColeccion {
         miLista.add("Domingo");
 
         //imprimir(miLista);
-        //AL QUERE MOSTRAR SABEMOS QUE EL ARRAYLIST ES DE TIPO OBJETO
-        //POR ENDE CAPTURAREMOS LOS ELEMENTOS DEL ARRAYLIST
+        //AL QUERER MOSTRAR SABEMOS QUE EL ARRAYLIST ES DE TIPO OBJETO
+        //POR ELLO CAPTURAREMOS LOS ELEMENTOS DEL ARRAYLIST
         /*for (Object elemento : miLista) {
             System.out.println(elemento);
         }
@@ -77,6 +77,10 @@ public class TestColeccion {
         coleccion.forEach(elemento ->{
             System.out.println("Elemento : ["+elemento+"]");
         });
+    }
+
+    public static void imprimirCompacto(Collection coleccion){
+        coleccion.forEach(System.out::println);
     }
 
 }

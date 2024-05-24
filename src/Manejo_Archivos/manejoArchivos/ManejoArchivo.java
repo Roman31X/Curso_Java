@@ -3,7 +3,8 @@ package Manejo_Archivos.manejoArchivos;
 import java.io.*;
 
 public class ManejoArchivo {
-    //método estatico para no instanciar conobjetos
+
+    //método estatico para no instanciar con objetos
     public static void crearArchivo(String nombreArchivo){
         //creammos un objeto de tipo file en memoria
         File archivo = new File(nombreArchivo);
@@ -15,7 +16,8 @@ public class ManejoArchivo {
             e.printStackTrace(System.out);
         }
     }
-    //AGREGAR INFORMACION
+
+    //AGREGAR INFORMACIÓN
     public static void escribirArchivo(String nombreArchivo,String contenido){
         //Abrimos el archivo
         File archivo = new File(nombreArchivo);
@@ -28,7 +30,8 @@ public class ManejoArchivo {
             e.printStackTrace(System.out);
         }
     }
-    //AGREGAR INFORMACION
+
+    //AGREGAR INFORMACIÓN
     public static void anexarArchivo(String nombreArchivo,String contenido){
         //Abrimos el archivo
         File archivo = new File(nombreArchivo);
@@ -43,7 +46,8 @@ public class ManejoArchivo {
             e.printStackTrace(System.out);
         }
     }
-    //LEER INFORMACION ARCHIVO
+
+    //LEER INFORMACIÓN ARCHIVO
     public static void leerArchivo(String nombreArchivo){
         //Abrimos el archivo
         int i=0;
@@ -51,7 +55,7 @@ public class ManejoArchivo {
         //para leer lineas completa del archivo
         try {
             var entrada = new BufferedReader(new FileReader(archivo));
-            //para leer lineas completas
+            //para leer líneas completas
             var lectura = entrada.readLine();
             while (lectura != null){
                 System.out.println("Linea ["+i+"] : ["+lectura+"]");
