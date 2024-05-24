@@ -16,7 +16,7 @@ public class Persona implements Serializable {
     public Persona() {
     }
 
-    //Constructor con parametros
+    //Constructor con parámetros
     public Persona(String nombre, String apellido) {
         this.nombre = nombre;
         this.apellido = apellido;

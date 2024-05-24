@@ -81,6 +81,7 @@ programas Java.
 - [x] <a href="https://github.com/Roman31X/Curso_Java/tree/main/src/Fundamentos_Funciones"> Funciones en Java </a>
 - [x] <a href="https://github.com/Roman31X/Curso_Java/tree/main/src/Fundamentos_ClaseAbstracta"> Clases Abstractas en Java </a>
 - [x] <a href="https://github.com/Roman31X/Curso_Java/tree/main/src/Fundamentos_Interfaces"> Interfaces en Java </a>
+- [x] <a href="https://github.com/Roman31X/Curso_Java/tree/main/src/Fundamentos_JavaBeans"> Java Beans en Java </a>
 
 
 
